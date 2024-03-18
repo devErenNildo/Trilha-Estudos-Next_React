@@ -1,6 +1,11 @@
+import Link from "next/link";
+
 const Blog = () => {
     return(
-        <h1>page blog s</h1>
+        <>
+            <Link href={'/'}> Home </Link>
+            <h1>page blog s</h1>
+        </>
     );
 }
 
